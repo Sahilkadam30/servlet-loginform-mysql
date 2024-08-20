@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(158, 155, 242);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.register-form{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.register-form h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.register-form input[type="email"],.register-form input[type="text"],.register-form input[type="password"]  {
+    width: 100%;
+    padding: 10px;
+    padding-left: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.register-form input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    padding-left: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.register-form input[type="submit"]:hover{
+    background-color: aqua;
+}
